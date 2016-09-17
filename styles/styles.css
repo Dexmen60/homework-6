@@ -1,0 +1,208 @@
+/*----------------------------------------------------------------------------------*/
+/*------------------------------RESET DEFAULT STYLES--------------------------------*/
+/*----------------------------------------------------------------------------------*/
+html,body                       { width:100%; height:100%; }
+body                            { padding:0; margin:0; font:14px Tahoma, sans-serif; background:#fff; color:#000; }
+div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,fieldset,label,select,checkbox,input,textarea {
+	padding:0;
+	margin:0;
+	outline:none;
+	list-style:none;
+}
+select, input, textarea        { font-size:12px; vertical-align:middle; }
+textarea                       { vertical-align:top; }
+:focus                         { outline:none; }
+input[type=submit]             { cursor:pointer; }
+img, fieldset                  { border:0; }
+table                          { border-collapse:collapse; border-spacing:0; }
+a:link, a:visited              { font:12px Tahoma, sans-serif;  }
+a:hover                        { text-decoration:none; }
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------WRAPPER--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+@font-face { 
+    font-family: AFKlampenborg; 
+    src: url(../fonts/AFKlampenborg.ttf);
+}
+@font-face {
+    font-family: Retrospective; 
+    src: url(../fonts/Retrospective.otf); 
+}
+body{
+
+    font-family: Arial;
+	background-image: url(../images/gradient.png);
+	background-repeat: repeat-x;
+	background-color: #FFFFFF;
+}
+#wrap{
+	width: 777px;
+	height: auto;
+	margin: 0 auto;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------HEADER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+#header{
+	width: 777px;
+	height: 118px;
+	margin: 0 auto;
+}
+
+.registration{
+	margin-left: 617px;
+	width: 160px;
+	height: 25px;
+	font-family: Arial;
+	font-size: 11px;
+	background-color: #FFFFFF;
+	border-radius: 0 0 23px 23px; 
+}
+.registration a{
+	text-decoration: none;
+	color: #000000;
+}
+.registration li {
+	float: left;
+	padding-top: 3px;
+	line-height: 16px;
+}
+.registration li:last-of-type{
+	padding-left: 10px;
+}
+.registration li:first-of-type {
+	padding-right: 10px;
+	padding-left: 20px;
+
+}
+.registration a:hover{
+	color: #BAB3FC;
+}
+
+#header h1 a{
+	text-indent: -5000px;
+	float: left;
+	display: block;
+	width:177px;
+	height: 83px;
+	background-image: url(../images/logo.png) ;
+	margin-top:9px;
+}
+
+#header span a {
+	width: 100px;
+	height: 35px;
+	float: left;
+	line-height: 17px;
+	font-family: AFKlampenborg; 
+	font-size: 22px;
+	color: #939598;
+	text-decoration: none;
+	margin-top:30px;
+	margin-left: 2px;
+}
+#header p{	
+	float: left;
+	margin-top:38px;
+	font-size: 15px;
+	font-family: Retrospective;
+	font-weight: lighter;
+	color: #646464;
+	margin-left: 164px;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------NAV------------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.nav{
+	font-size: 16px;
+	font-family: Arial;
+	height: 45px;
+	border-bottom: 1.4px solid #939598;
+	margin: 0 auto;
+}
+.nav ul {
+	margin-left: 353px;
+}
+
+.nav  li a {
+
+	float: left;
+	padding: 12px 27px 12px 27px;
+	font-size: 16px;
+	font-family: Arial;
+	color: #000000;
+	cursor: pointer;
+    text-decoration: none;
+}
+.home a {
+	height: 21px;
+	border-top: 1px solid #939598;
+	border-left: 1px solid #939598;
+	border-radius: 23px 0  0 0 ;
+}
+.project_goal a {
+	height: 21px;
+	border-top: 1px solid #939598;
+	border-left:  1px solid #939598;
+	border-right: 1px solid #939598;
+}
+.company a {
+	height: 21px;
+	border-top: 1px solid #939598;
+	border-right: 1px solid #939598;
+	border-radius: 0 23px  0 0 ;
+}
+.home a:hover {
+	color: #45b8fb;
+	border-radius: 23px 0 0 0 ;
+    background: linear-gradient(to top, #EEF2F2, #fdfefe);
+	height: 21px;
+
+}
+.project_goal a:hover {
+	color: #45b8fb;
+    background: linear-gradient(to top, #EEF2F2, #fdfefe);
+	height: 21px;
+	border-right: 1px solid #939598;
+	border-left:  1px solid #939598;
+
+}
+.company a:hover {
+	color: #45b8fb;
+	border-radius: 0 23px  0 0 ;
+    background: linear-gradient(to top, #EEF2F2, #fdfefe);
+	height: 21px;
+
+}
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------CONTENT--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+#content{
+	width: 526px;
+	height: auto;
+	float: left;
+}
+
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------SIDEBAR--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+#sidebar{
+	width: 250px;
+	height: auto;
+	float: left;
+}
+
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------FOOTER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+#footer{
+
+    clear: left;
+	height: 30px;
+	border: 1px solid black;
+}
+
