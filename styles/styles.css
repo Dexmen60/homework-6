@@ -126,7 +126,6 @@ body{
 }
 
 .nav  li a {
-
 	float: left;
 	padding: 12px 27px 12px 27px;
 	font-size: 16px;
@@ -134,21 +133,22 @@ body{
 	color: #000000;
 	cursor: pointer;
     text-decoration: none;
+    background: linear-gradient(to top, #dad9d7, #fdfefe);
 }
 .home a {
-	height: 21px;
+	height: 20px;
 	border-top: 1px solid #939598;
 	border-left: 1px solid #939598;
 	border-radius: 23px 0  0 0 ;
 }
 .project_goal a {
-	height: 21px;
+	height: 20px;
 	border-top: 1px solid #939598;
 	border-left:  1px solid #939598;
 	border-right: 1px solid #939598;
 }
 .company a {
-	height: 21px;
+	height: 20px;
 	border-top: 1px solid #939598;
 	border-right: 1px solid #939598;
 	border-radius: 0 23px  0 0 ;
@@ -194,7 +194,39 @@ body{
 	height: auto;
 	float: left;
 }
+#sidebar h5{
+	display: block;
+	font-size: 20px;
+	font-family: Arial;
+	font-weight: lighter;
+	color:#03a7fe;
+	margin-top: 24px;
+	margin-bottom: 33px;
+	width: 148px;
 
+}
+#sidebar h5:after{
+	content: url('../images/kategory.png');
+	height: 11px;
+	width: 14px;
+	margin-left: 8px;
+}
+#sidebar li{
+	height: 24px;
+	font-size: 14px;
+	font-family: Arial;
+	font-weight: lighter;
+	margin-bottom: 5px;
+	color:#555555;
+	border-bottom: 1px solid #c3c3c2;
+}
+#sidebar li:before{
+	content: url('../images/pointer.png');
+    height: 20px;
+	width: 13px;
+	margin-right: 8px;
+	vertical-align: -2px;
+}
 
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------FOOTER---------------------------------------*/
