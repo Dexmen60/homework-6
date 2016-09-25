@@ -180,10 +180,33 @@ body{
 /*-------------------------------------CONTENT--------------------------------------*/
 /*----------------------------------------------------------------------------------*/
 #content{
-	width: 526px;
+	width: 514px;
 	height: auto;
 	float: left;
+	margin-left: 12px;
 }
+h3{
+	margin-top: 60px;
+	margin-bottom: 16px;
+	font-size: 26px;
+}
+#content ul{
+	margin-top: 16px;
+	border-top: 1px solid #00a7fb;
+	border-bottom: 1px solid #00a7fb;
+}
+#content li{
+	margin-top: 16px;
+}
+#content img{
+	float: left;
+}
+h1{
+	font-size: 22px;
+	color: #03a7fe;
+}
+
+
 
 
 /*----------------------------------------------------------------------------------*/
