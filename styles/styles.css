@@ -80,7 +80,7 @@ body{
 	color: #BAB3FC;
 }
 
-#header h1 a{
+.logo {
 	text-indent: -5000px;
 	float: left;
 	display: block;
@@ -211,7 +211,7 @@ body{
 	width: 14px;
 	margin-left: 8px;
 }
-#sidebar li a{
+.categories li a{
 	text-decoration: none;
 	font-size: 14px;
 	font-family: Arial;
@@ -219,15 +219,15 @@ body{
 	color:#555555;
 
 }
-#sidebar li {
+.categories li {
 	height: 25px;
 	margin-bottom: 5px;
 	border-bottom: 1px solid #c3c3c2;
 }
-#sidebar li:last-of-type{
+.categories li:last-of-type{
 	border-bottom: 0px solid #c3c3c2;
 }
-#sidebar li :before{
+.categories li :before{
 	content: url('../images/pointer.png');
     height: 20px;
 	width: 13px;
@@ -247,8 +247,18 @@ body{
 	margin-top: 12px;
 	margin-bottom: 12px;
 	margin-left: 64px;
-
 }
+ .companies li {
+ 	margin-left: 65px;
+ 	margin-bottom: 26px;
+}
+.companies img {
+	opacity:.20; 
+}
+.companies img:hover{
+	opacity:1; 
+}
+
 
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------FOOTER---------------------------------------*/
